@@ -1,10 +1,10 @@
 # Digit-Recognition
 In this Digit Recognition Project, I programmed in Java 
-and used the StdDraw class to draw the graphics. For 
-generating the 30 images per digit, I added noise randomley
-(1-4 times). As for the training method in my Perceptron class, 
+and used the StdDraw class to draw the graphics. I generated 
+30 images with noise added per digit. Noise was added 1-4 times 
+for each digit. As for the training method in my Perceptron class, 
 I used the 35 pixels as my inputs and assigned 35 weights 
-to each individual pixel. Then, I looped through the 300 
+to each individual pixel. Then, I looped through the 300 (30 images from digits 0-9)
 images and updated the weights as well as the theta for 
 each individual pixel. 
 
